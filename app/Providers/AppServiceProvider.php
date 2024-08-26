@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        Passport::loadKeysFrom(__DIR__ . '/../secrets/oauth');
-        Passport::hashClientSecrets();
+        // Passport::loadKeysFrom(__DIR__ . '/../secrets/oauth');
+        // Passport::hashClientSecrets();
     }
 }
